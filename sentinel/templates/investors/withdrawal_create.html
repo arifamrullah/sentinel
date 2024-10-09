@@ -1,0 +1,14 @@
+{% extends "investors/base_withdrawal.html" %}
+{% load i18n %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+{% block transactions_withdrawals_create_nav_class %}active{% endblock %}
+
+{% block content %}
+	{% crispy form %}
+{% endblock content %}
+
+{% block extrajs %}
+{{ form.media }}
+{% endblock extrajs %}

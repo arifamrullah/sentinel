@@ -1,0 +1,20 @@
+{% extends "settings/base_office.html" %}
+{% load i18n %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+{% block breadcrumb_title %}{% trans "Make Office" %}{% endblock breadcrumb_title %}
+
+{% block breadcrumb_items %}
+  {{ block.super }}
+	<li>
+    <a href="{% url 'settings:office_list' %}">{% trans "Offices" %}</a>
+  </li>
+  <li class="active">
+    <strong>{% trans "Make Office" %}</strong>
+  </li>
+{% endblock %}
+
+{% block content %}
+    {% crispy form %}
+{% endblock content %}

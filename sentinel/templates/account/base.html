@@ -1,0 +1,35 @@
+{% load i18n %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block site_title %}{% block site_title_prefix %}{% endblock site_title_prefix %}{% block site_title_content %}{% endblock site_title_content %}{% block site_title_suffix %} | SterlingAlpha{% endblock site_title_suffix %}{% endblock site_title %}</title>
+
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+  </head>
+
+  <body class="gray-bg">
+    <div class="middle-box text-center loginscreen animated fadeInDown">
+      {% block content_header %}
+        <div>
+          <h1 class="logo-name">STL</h1>
+        </div>
+        <h3>{% trans "Welcome to Sentinel" %}</h3>
+      {% endblock content_header %}
+
+      {% block content %}
+      {% endblock content %}
+
+      {% block content_footer %}
+        <p class="m-t"><small>{% trans "&copy; 2017 PT. IndoSterling Technomedia" %}</small></p>
+      {% endblock content_footer %}
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="{% static 'js/jquery-2.1.1.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  </body>
+</html>

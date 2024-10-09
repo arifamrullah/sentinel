@@ -1,0 +1,248 @@
+{% extends "investors/base.html" %}
+{% load i18n %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+{% block breadcrumb_title %}{% trans "Register New Investor" %}{% endblock breadcrumb_title %}
+
+{% block breadcrumb_items %}
+  {{ block.super }}
+	<li>
+    <a href="{% url 'investors:list' %}">{% trans "Investors" %}</a>
+  </li>
+  <li class="active">
+    <strong>{% trans "Register New Investor" %}</strong>
+  </li>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="row">
+	<div class="col-xs-12">
+
+	<form id="form-register" class="form-horizontal" action="{% url 'investors:register' %}" method="post">
+	<div id="wizard" class="sentinel-wizard wizard clearfix">
+		<div class="steps clearfix">
+			<ul role="tablist">
+				<li role="tab" {% if wizard.steps.step1 == 1 %} class="current" {% else %} class="done" {% endif %} >
+					<a id="wizard-t-0">
+						{% if wizard.steps.step1 > 1 %}
+						<button class="step-previous-wizard" name="wizard_goto_step" type="submit" value="{{ wizard.steps.first }}"><span class="number">1.</span> {% trans "Investor Form" %}</button>
+						{% else %}
+						<span class="number">1.</span> {% trans "Investor Form" %}
+						{% endif %}
+					</a>
+				</li>
+
+				<li role="tab" {% if wizard.steps.step1 == 2 %} class="current" {% elif wizard.steps.step1 > 2 %} class="done" {% else %} class="disabled" {% endif %}>
+					<a id="wizard-t-1">
+						{% if wizard.steps.step1 > 2 %}
+						<button class="step-previous-wizard" name="wizard_goto_step" type="submit" value="{{ wizard.steps.prev }}"><span class="number">2.</span> {% trans "Deposit Form" %}</button>
+						{% else %}
+						<span class="number">2.</span> {% trans "Deposit Form" %}
+						{% endif %}						
+					</a>
+				</li>
+
+				<li role="tab" {% if wizard.steps.step1 == 3 %} class="current" {% else %} class="disabled" {% endif %}>
+					<a id="wizard-t-2">
+						<span class="number">3.</span> {% trans "Confirm" %}
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="ibox-content">	
+		{{ wizard.management_form }}
+
+		<h2>Confirm & Save</h2><hr>
+
+		<div class="row">
+			<div class="col-md-10">
+				<h3>Investor Information</h3>
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Name</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.name | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Type</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.investor_type }}</div>
+				</div>
+				{% if data_from_step_investor.investor_type == "corporate" %}
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">PIC Name</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.pic_corporate | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">PIC Position</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.pic_position | default:'-' }}</div>
+				</div>
+
+				{% endif %}
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">National ID Card No.</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.national_id_card_no | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Date Of Birth</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.date_of_birth }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Address</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.address | default:'-'}}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Province</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.province }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">City</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.city }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Postal Code</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.postal_code | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Phone</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.phone | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Primary Mobile No</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.mobile1 | default:'-'}}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Secondary Mobile No</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.mobile2 | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Email</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.email | default:'-'}}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Bank Acc Name</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.bank_acc_name | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Bank Name</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.bank_name | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Bank Branch</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.bank_branch | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Bank Acc No.</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.bank_acc_no | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Tax ID No.</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.tax_id_no | default:'-' }}</div>
+				</div>
+				<br>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Financial Consultant</div>
+					<div class="col-md-8 field-right">{{ data_from_step_investor.financial_consultant }}</div>
+				</div>
+
+			</div>
+		</div>
+		<br>
+
+		<div class="row">
+			<div class="col-md-10">
+				<h3>Deposit Information</h3>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Form No.</div>
+					<div class="col-md-8 field-right">{{ data_from_step_deposit.form_no | default:'-' }}</div>
+				</div>
+				<br>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Deposit</div>
+					<div class="col-md-8 field-right">{{ data_from_step_deposit.deposit | default:'0' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Deposit Type</div>
+					<div class="col-md-8 field-right">{{ data_from_step_deposit.deposit_type }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Transaction Type</div>
+					<div class="col-md-8 field-right">{{ data_from_step_deposit.transaction_type }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Bank Acc Name</div>
+					<div class="col-md-8 field-right">{{ data_from_step_deposit.bank_acc_name | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Bank Name</div>
+					<div class="col-md-8 field-right">{{ data_from_step_deposit.bank_name | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Bank Acc No.</div>
+					<div class="col-md-8 field-right">{{ data_from_step_deposit.bank_acc_no | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Transaction Date</div>
+					<div class="col-md-8 field-right">{{ data_from_step_deposit.transaction_date | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Tenor</div>
+					<div class="col-md-8 field-right">{{ data_from_step_deposit.invest_tenor | default:'-' }}</div>
+				</div>
+
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Return</div>
+					<div class="col-md-8 field-right">{{ data_from_step_deposit.invest_return | default:'-' }}</div>
+				</div>
+
+				<br>
+				<div class="row row-preview">
+					<div class="col-md-4 field-left">Product Type</div>
+					<div class="col-md-8 field-right">{{ data_from_step_deposit.product_type }}</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<br>
+
+	<div class="ibox-content">
+
+		{% crispy wizard.form %}
+
+	</form>
+	</div>
+
+	</div>
+</div>
+
+{% endblock content %}

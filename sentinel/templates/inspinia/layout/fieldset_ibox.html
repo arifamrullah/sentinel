@@ -1,0 +1,17 @@
+<div {% if fieldset.css_id %}id="{{ fieldset.css_id }}"{% endif %}
+  class="ibox float-e-margins {% if fieldset.css_class or form_style %}{{ fieldset.css_class }} {{ form_style }}{% endif %}"
+  {{ fieldset.flat_attrs|safe }}>
+  {% if legend|safe %}
+    <div class="ibox-title">
+      <h5>{{ legend|safe }}</h5>
+      <div class="ibox-tools">
+        <a class="collapse-link">
+          <i class="fa fa-chevron-up"></i>
+        </a>
+      </div>
+    </div>
+  {% endif %}
+  <div class="ibox-content">
+    {{ fields|safe }}
+  </div>
+</div>

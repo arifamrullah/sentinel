@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block transactions_nav_class %}active{% endblock %}
+
+{% block breadcrumb_items %}
+  {{ block.super }}
+  <li>
+    {% trans "Transactions" %}
+  </li>
+{% endblock %}

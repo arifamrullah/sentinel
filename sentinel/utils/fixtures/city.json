@@ -1,0 +1,4178 @@
+[
+  {
+    "pk": 1101,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Simeulue"
+    }
+  },
+  {
+    "pk": 1102,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Aceh Singkil"
+    }
+  },
+  {
+    "pk": 1103,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Aceh Selatan"
+    }
+  },
+  {
+    "pk": 1104,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Aceh Tenggara"
+    }
+  },
+  {
+    "pk": 1105,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Aceh Timur"
+    }
+  },
+  {
+    "pk": 1106,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Aceh Tengah"
+    }
+  },
+  {
+    "pk": 1107,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Aceh Barat"
+    }
+  },
+  {
+    "pk": 1108,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Aceh Besar"
+    }
+  },
+  {
+    "pk": 1109,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Pidie"
+    }
+  },
+  {
+    "pk": 1110,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Bireuen"
+    }
+  },
+  {
+    "pk": 1111,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Aceh Utara"
+    }
+  },
+  {
+    "pk": 1112,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Aceh Barat Daya"
+    }
+  },
+  {
+    "pk": 1113,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Gayo Lues"
+    }
+  },
+  {
+    "pk": 1114,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Aceh Tamiang"
+    }
+  },
+  {
+    "pk": 1115,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Nagan Raya"
+    }
+  },
+  {
+    "pk": 1116,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Aceh Jaya"
+    }
+  },
+  {
+    "pk": 1117,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Bener Meriah"
+    }
+  },
+  {
+    "pk": 1118,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kab. Pidie Jaya"
+    }
+  },
+  {
+    "pk": 1119,
+    "model": "utils.city",
+    "fields": {
+      "province": 31,
+      "name": "Depok Kota"
+    }
+  },
+  {
+    "pk": 1120,
+    "model": "utils.city",
+    "fields": {
+      "province": 31,
+      "name": "Bogor Kab"
+    }
+  },
+  {
+    "pk": 1121,
+    "model": "utils.city",
+    "fields": {
+      "province": 31,
+      "name": "Tangerang Kota"
+    }
+  },
+  {
+    "pk": 1122,
+    "model": "utils.city",
+    "fields": {
+      "province": 31,
+      "name": "Bekasi Kab"
+    }
+  },
+  {
+    "pk": 1123,
+    "model": "utils.city",
+    "fields": {
+      "province": 31,
+      "name": "Kota Bekasi"
+    }
+  },
+  {
+    "pk": 1124,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Tangerang Kab"
+    }
+  },
+  {
+    "pk": 1125,
+    "model": "utils.city",
+    "fields": {
+      "province": 31,
+      "name": "Kab Tangerang"
+    }
+  },
+  {
+    "pk": 1126,
+    "model": "utils.city",
+    "fields": {
+      "province": 31,
+      "name": "Kab Bogor"
+    }
+  },
+  {
+    "pk": 1127,
+    "model": "utils.city",
+    "fields": {
+      "province": 31,
+      "name": "Kab Bekasi"
+    }
+  },
+  {
+    "pk": 1128,
+    "model": "utils.city",
+    "fields": {
+      "province": 21,
+      "name": "Batam"
+    }
+  },
+  {
+    "pk": 1129,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Tanjung Karang"
+    }
+  },
+  {
+    "pk": 1130,
+    "model": "utils.city",
+    "fields": {
+      "province": 91,
+      "name": "Abepura"
+    }
+  },
+  {
+    "pk": 1131,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Bukit Tinggi"
+    }
+  },
+  {
+    "pk": 1132,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Karangasem"
+    }
+  },
+  {
+    "pk": 1133,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Kuta Selatan"
+    }
+  },
+  {
+    "pk": 1134,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Seminyak"
+    }
+  },
+  {
+    "pk": 1135,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Sanur"
+    }
+  },
+  {
+    "pk": 1136,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Jimbaran"
+    }
+  },
+  {
+    "pk": 1137,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Teuku Umar"
+    }
+  },
+  {
+    "pk": 1171,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kota Banda Aceh"
+    }
+  },
+  {
+    "pk": 1172,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kota Sabang"
+    }
+  },
+  {
+    "pk": 1173,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kota Langsa"
+    }
+  },
+  {
+    "pk": 1174,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kota Lhokseumawe"
+    }
+  },
+  {
+    "pk": 1175,
+    "model": "utils.city",
+    "fields": {
+      "province": 11,
+      "name": "Kota Subulussalam"
+    }
+  },
+  {
+    "pk": 1201,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Nias"
+    }
+  },
+  {
+    "pk": 1202,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Mandailing Natal"
+    }
+  },
+  {
+    "pk": 1203,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Tapanuli Selatan"
+    }
+  },
+  {
+    "pk": 1204,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Tapanuli Tengah"
+    }
+  },
+  {
+    "pk": 1205,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Tapanuli Utara"
+    }
+  },
+  {
+    "pk": 1206,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Toba Samosir"
+    }
+  },
+  {
+    "pk": 1207,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Labuhan Batu"
+    }
+  },
+  {
+    "pk": 1208,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Asahan"
+    }
+  },
+  {
+    "pk": 1209,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Simalungun"
+    }
+  },
+  {
+    "pk": 1210,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Dairi"
+    }
+  },
+  {
+    "pk": 1211,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Karo"
+    }
+  },
+  {
+    "pk": 1212,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Deli Serdang"
+    }
+  },
+  {
+    "pk": 1213,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Langkat"
+    }
+  },
+  {
+    "pk": 1214,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Nias Selatan"
+    }
+  },
+  {
+    "pk": 1215,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Humbang Hasundutan"
+    }
+  },
+  {
+    "pk": 1216,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Pakpak Bharat"
+    }
+  },
+  {
+    "pk": 1217,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Samosir"
+    }
+  },
+  {
+    "pk": 1218,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Serdang Bedagai"
+    }
+  },
+  {
+    "pk": 1219,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Batu Bara"
+    }
+  },
+  {
+    "pk": 1220,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Padang Lawas Utara"
+    }
+  },
+  {
+    "pk": 1221,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Padang Lawas"
+    }
+  },
+  {
+    "pk": 1222,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Labuhan Batu Selatan"
+    }
+  },
+  {
+    "pk": 1223,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Labuhan Batu Utara"
+    }
+  },
+  {
+    "pk": 1224,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Nias Utara"
+    }
+  },
+  {
+    "pk": 1225,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kab. Nias Barat"
+    }
+  },
+  {
+    "pk": 1271,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kota Sibolga"
+    }
+  },
+  {
+    "pk": 1272,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kota Tanjung Balai"
+    }
+  },
+  {
+    "pk": 1273,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kota Pematang Siantar"
+    }
+  },
+  {
+    "pk": 1274,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kota Tebing Tinggi"
+    }
+  },
+  {
+    "pk": 1275,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kota Medan"
+    }
+  },
+  {
+    "pk": 1276,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kota Binjai"
+    }
+  },
+  {
+    "pk": 1277,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kota Padangsidimpuan"
+    }
+  },
+  {
+    "pk": 1278,
+    "model": "utils.city",
+    "fields": {
+      "province": 12,
+      "name": "Kota Gunungsitoli"
+    }
+  },
+  {
+    "pk": 1301,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kab. Kepulauan Mentawai"
+    }
+  },
+  {
+    "pk": 1302,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kab. Pesisir Selatan"
+    }
+  },
+  {
+    "pk": 1303,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kab. Solok"
+    }
+  },
+  {
+    "pk": 1304,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kab. Sijunjung"
+    }
+  },
+  {
+    "pk": 1305,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kab. Tanah Datar"
+    }
+  },
+  {
+    "pk": 1306,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kab. Padang Pariaman"
+    }
+  },
+  {
+    "pk": 1307,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kab. Agam"
+    }
+  },
+  {
+    "pk": 1308,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kab. Lima Puluh Kota"
+    }
+  },
+  {
+    "pk": 1309,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kab. Pasaman"
+    }
+  },
+  {
+    "pk": 1310,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kab. Solok Selatan"
+    }
+  },
+  {
+    "pk": 1311,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kab. Dharmasraya"
+    }
+  },
+  {
+    "pk": 1312,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kab. Pasaman Barat"
+    }
+  },
+  {
+    "pk": 1371,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kota Padang"
+    }
+  },
+  {
+    "pk": 1372,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kota Solok"
+    }
+  },
+  {
+    "pk": 1373,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kota Sawah Lunto"
+    }
+  },
+  {
+    "pk": 1374,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kota Padang Panjang"
+    }
+  },
+  {
+    "pk": 1375,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kota Bukittinggi"
+    }
+  },
+  {
+    "pk": 1376,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kota Payakumbuh"
+    }
+  },
+  {
+    "pk": 1377,
+    "model": "utils.city",
+    "fields": {
+      "province": 13,
+      "name": "Kota Pariaman"
+    }
+  },
+  {
+    "pk": 1401,
+    "model": "utils.city",
+    "fields": {
+      "province": 14,
+      "name": "Kab. Kuantan Singingi"
+    }
+  },
+  {
+    "pk": 1402,
+    "model": "utils.city",
+    "fields": {
+      "province": 14,
+      "name": "Kab. Indragiri Hulu"
+    }
+  },
+  {
+    "pk": 1403,
+    "model": "utils.city",
+    "fields": {
+      "province": 14,
+      "name": "Kab. Indragiri Hilir"
+    }
+  },
+  {
+    "pk": 1404,
+    "model": "utils.city",
+    "fields": {
+      "province": 14,
+      "name": "Kab. Pelalawan"
+    }
+  },
+  {
+    "pk": 1405,
+    "model": "utils.city",
+    "fields": {
+      "province": 14,
+      "name": "Kab. S I A K"
+    }
+  },
+  {
+    "pk": 1406,
+    "model": "utils.city",
+    "fields": {
+      "province": 14,
+      "name": "Kab. Kampar"
+    }
+  },
+  {
+    "pk": 1407,
+    "model": "utils.city",
+    "fields": {
+      "province": 14,
+      "name": "Kab. Rokan Hulu"
+    }
+  },
+  {
+    "pk": 1408,
+    "model": "utils.city",
+    "fields": {
+      "province": 14,
+      "name": "Kab. Bengkalis"
+    }
+  },
+  {
+    "pk": 1409,
+    "model": "utils.city",
+    "fields": {
+      "province": 14,
+      "name": "Kab. Rokan Hilir"
+    }
+  },
+  {
+    "pk": 1410,
+    "model": "utils.city",
+    "fields": {
+      "province": 14,
+      "name": "Kab. Kepulauan Meranti"
+    }
+  },
+  {
+    "pk": 1471,
+    "model": "utils.city",
+    "fields": {
+      "province": 14,
+      "name": "Kota Pekanbaru"
+    }
+  },
+  {
+    "pk": 1473,
+    "model": "utils.city",
+    "fields": {
+      "province": 14,
+      "name": "Kota D U M A I"
+    }
+  },
+  {
+    "pk": 1501,
+    "model": "utils.city",
+    "fields": {
+      "province": 15,
+      "name": "Kab. Kerinci"
+    }
+  },
+  {
+    "pk": 1502,
+    "model": "utils.city",
+    "fields": {
+      "province": 15,
+      "name": "Kab. Merangin"
+    }
+  },
+  {
+    "pk": 1503,
+    "model": "utils.city",
+    "fields": {
+      "province": 15,
+      "name": "Kab. Sarolangun"
+    }
+  },
+  {
+    "pk": 1504,
+    "model": "utils.city",
+    "fields": {
+      "province": 15,
+      "name": "Kab. Batang Hari"
+    }
+  },
+  {
+    "pk": 1505,
+    "model": "utils.city",
+    "fields": {
+      "province": 15,
+      "name": "Kab. Muaro Jambi"
+    }
+  },
+  {
+    "pk": 1506,
+    "model": "utils.city",
+    "fields": {
+      "province": 15,
+      "name": "Kab. Tanjung Jabung Timur"
+    }
+  },
+  {
+    "pk": 1507,
+    "model": "utils.city",
+    "fields": {
+      "province": 15,
+      "name": "Kab. Tanjung Jabung Barat"
+    }
+  },
+  {
+    "pk": 1508,
+    "model": "utils.city",
+    "fields": {
+      "province": 15,
+      "name": "Kab. Tebo"
+    }
+  },
+  {
+    "pk": 1509,
+    "model": "utils.city",
+    "fields": {
+      "province": 15,
+      "name": "Kab. Bungo"
+    }
+  },
+  {
+    "pk": 1571,
+    "model": "utils.city",
+    "fields": {
+      "province": 15,
+      "name": "Kota Jambi"
+    }
+  },
+  {
+    "pk": 1572,
+    "model": "utils.city",
+    "fields": {
+      "province": 15,
+      "name": "Kota Sungai Penuh"
+    }
+  },
+  {
+    "pk": 1601,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kab. Ogan Komering Ulu"
+    }
+  },
+  {
+    "pk": 1602,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kab. Ogan Komering Ilir"
+    }
+  },
+  {
+    "pk": 1603,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kab. Muara Enim"
+    }
+  },
+  {
+    "pk": 1604,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kab. Lahat"
+    }
+  },
+  {
+    "pk": 1605,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kab. Musi Rawas"
+    }
+  },
+  {
+    "pk": 1606,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kab. Musi Banyuasin"
+    }
+  },
+  {
+    "pk": 1607,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kab. Banyu Asin"
+    }
+  },
+  {
+    "pk": 1608,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kab. Ogan Komering Ulu Selatan"
+    }
+  },
+  {
+    "pk": 1609,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kab. Ogan Komering Ulu Timur"
+    }
+  },
+  {
+    "pk": 1610,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kab. Ogan Ilir"
+    }
+  },
+  {
+    "pk": 1611,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kab. Empat Lawang"
+    }
+  },
+  {
+    "pk": 1671,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kota Palembang"
+    }
+  },
+  {
+    "pk": 1672,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kota Prabumulih"
+    }
+  },
+  {
+    "pk": 1673,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kota Pagar Alam"
+    }
+  },
+  {
+    "pk": 1674,
+    "model": "utils.city",
+    "fields": {
+      "province": 16,
+      "name": "Kota Lubuklinggau"
+    }
+  },
+  {
+    "pk": 1701,
+    "model": "utils.city",
+    "fields": {
+      "province": 17,
+      "name": "Kab. Bengkulu Selatan"
+    }
+  },
+  {
+    "pk": 1702,
+    "model": "utils.city",
+    "fields": {
+      "province": 17,
+      "name": "Kab. Rejang Lebong"
+    }
+  },
+  {
+    "pk": 1703,
+    "model": "utils.city",
+    "fields": {
+      "province": 17,
+      "name": "Kab. Bengkulu Utara"
+    }
+  },
+  {
+    "pk": 1704,
+    "model": "utils.city",
+    "fields": {
+      "province": 17,
+      "name": "Kab. Kaur"
+    }
+  },
+  {
+    "pk": 1705,
+    "model": "utils.city",
+    "fields": {
+      "province": 17,
+      "name": "Kab. Seluma"
+    }
+  },
+  {
+    "pk": 1706,
+    "model": "utils.city",
+    "fields": {
+      "province": 17,
+      "name": "Kab. Mukomuko"
+    }
+  },
+  {
+    "pk": 1707,
+    "model": "utils.city",
+    "fields": {
+      "province": 17,
+      "name": "Kab. Lebong"
+    }
+  },
+  {
+    "pk": 1708,
+    "model": "utils.city",
+    "fields": {
+      "province": 17,
+      "name": "Kab. Kepahiang"
+    }
+  },
+  {
+    "pk": 1709,
+    "model": "utils.city",
+    "fields": {
+      "province": 17,
+      "name": "Kab. Bengkulu Tengah"
+    }
+  },
+  {
+    "pk": 1771,
+    "model": "utils.city",
+    "fields": {
+      "province": 17,
+      "name": "Kota Bengkulu"
+    }
+  },
+  {
+    "pk": 1801,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kab. Lampung Barat"
+    }
+  },
+  {
+    "pk": 1802,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kab. Tanggamus"
+    }
+  },
+  {
+    "pk": 1803,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kab. Lampung Selatan"
+    }
+  },
+  {
+    "pk": 1804,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kab. Lampung Timur"
+    }
+  },
+  {
+    "pk": 1805,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kab. Lampung Tengah"
+    }
+  },
+  {
+    "pk": 1806,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kab. Lampung Utara"
+    }
+  },
+  {
+    "pk": 1807,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kab. Way Kanan"
+    }
+  },
+  {
+    "pk": 1808,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kab. Tulangbawang"
+    }
+  },
+  {
+    "pk": 1809,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kab. Pesawaran"
+    }
+  },
+  {
+    "pk": 1810,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kab. Pringsewu"
+    }
+  },
+  {
+    "pk": 1811,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kab. Mesuji"
+    }
+  },
+  {
+    "pk": 1812,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kab. Tulang Bawang Barat"
+    }
+  },
+  {
+    "pk": 1813,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kab. Pesisir Barat"
+    }
+  },
+  {
+    "pk": 1871,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kota Bandar Lampung"
+    }
+  },
+  {
+    "pk": 1872,
+    "model": "utils.city",
+    "fields": {
+      "province": 18,
+      "name": "Kota Metro"
+    }
+  },
+  {
+    "pk": 1901,
+    "model": "utils.city",
+    "fields": {
+      "province": 19,
+      "name": "Kab. Bangka"
+    }
+  },
+  {
+    "pk": 1902,
+    "model": "utils.city",
+    "fields": {
+      "province": 19,
+      "name": "Kab. Belitung"
+    }
+  },
+  {
+    "pk": 1903,
+    "model": "utils.city",
+    "fields": {
+      "province": 19,
+      "name": "Kab. Bangka Barat"
+    }
+  },
+  {
+    "pk": 1904,
+    "model": "utils.city",
+    "fields": {
+      "province": 19,
+      "name": "Kab. Bangka Tengah"
+    }
+  },
+  {
+    "pk": 1905,
+    "model": "utils.city",
+    "fields": {
+      "province": 19,
+      "name": "Kab. Bangka Selatan"
+    }
+  },
+  {
+    "pk": 1906,
+    "model": "utils.city",
+    "fields": {
+      "province": 19,
+      "name": "Kab. Belitung Timur"
+    }
+  },
+  {
+    "pk": 1971,
+    "model": "utils.city",
+    "fields": {
+      "province": 19,
+      "name": "Kota Pangkal Pinang"
+    }
+  },
+  {
+    "pk": 2101,
+    "model": "utils.city",
+    "fields": {
+      "province": 21,
+      "name": "Kab. Karimun"
+    }
+  },
+  {
+    "pk": 2102,
+    "model": "utils.city",
+    "fields": {
+      "province": 21,
+      "name": "Kab. Bintan"
+    }
+  },
+  {
+    "pk": 2103,
+    "model": "utils.city",
+    "fields": {
+      "province": 21,
+      "name": "Kab. Natuna"
+    }
+  },
+  {
+    "pk": 2104,
+    "model": "utils.city",
+    "fields": {
+      "province": 21,
+      "name": "Kab. Lingga"
+    }
+  },
+  {
+    "pk": 2105,
+    "model": "utils.city",
+    "fields": {
+      "province": 21,
+      "name": "Kab. Kepulauan Anambas"
+    }
+  },
+  {
+    "pk": 2171,
+    "model": "utils.city",
+    "fields": {
+      "province": 21,
+      "name": "Kota B A T A M"
+    }
+  },
+  {
+    "pk": 2172,
+    "model": "utils.city",
+    "fields": {
+      "province": 21,
+      "name": "Kota Tanjung Pinang"
+    }
+  },
+  {
+    "pk": 3101,
+    "model": "utils.city",
+    "fields": {
+      "province": 31,
+      "name": "Kab. Kepulauan Seribu"
+    }
+  },
+  {
+    "pk": 3171,
+    "model": "utils.city",
+    "fields": {
+      "province": 31,
+      "name": "Kota Jakarta Selatan"
+    }
+  },
+  {
+    "pk": 3172,
+    "model": "utils.city",
+    "fields": {
+      "province": 31,
+      "name": "Kota Jakarta Timur"
+    }
+  },
+  {
+    "pk": 3173,
+    "model": "utils.city",
+    "fields": {
+      "province": 31,
+      "name": "Kota Jakarta Pusat"
+    }
+  },
+  {
+    "pk": 3174,
+    "model": "utils.city",
+    "fields": {
+      "province": 31,
+      "name": "Kota Jakarta Barat"
+    }
+  },
+  {
+    "pk": 3175,
+    "model": "utils.city",
+    "fields": {
+      "province": 31,
+      "name": "Kota Jakarta Utara"
+    }
+  },
+  {
+    "pk": 3201,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Bogor"
+    }
+  },
+  {
+    "pk": 3202,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Sukabumi"
+    }
+  },
+  {
+    "pk": 3203,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Cianjur"
+    }
+  },
+  {
+    "pk": 3204,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Bandung"
+    }
+  },
+  {
+    "pk": 3205,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Garut"
+    }
+  },
+  {
+    "pk": 3206,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Tasikmalaya"
+    }
+  },
+  {
+    "pk": 3207,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Ciamis"
+    }
+  },
+  {
+    "pk": 3208,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Kuningan"
+    }
+  },
+  {
+    "pk": 3209,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Cirebon"
+    }
+  },
+  {
+    "pk": 3210,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Majalengka"
+    }
+  },
+  {
+    "pk": 3211,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Sumedang"
+    }
+  },
+  {
+    "pk": 3212,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Indramayu"
+    }
+  },
+  {
+    "pk": 3213,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Subang"
+    }
+  },
+  {
+    "pk": 3214,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Purwakarta"
+    }
+  },
+  {
+    "pk": 3215,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Karawang"
+    }
+  },
+  {
+    "pk": 3216,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Bekasi"
+    }
+  },
+  {
+    "pk": 3217,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Bandung Barat"
+    }
+  },
+  {
+    "pk": 3218,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kab. Pangandaran"
+    }
+  },
+  {
+    "pk": 3271,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kota Bogor"
+    }
+  },
+  {
+    "pk": 3272,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kota Sukabumi"
+    }
+  },
+  {
+    "pk": 3273,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kota Bandung"
+    }
+  },
+  {
+    "pk": 3274,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kota Cirebon"
+    }
+  },
+  {
+    "pk": 3275,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kota Bekasi"
+    }
+  },
+  {
+    "pk": 3276,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kota Depok"
+    }
+  },
+  {
+    "pk": 3277,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kota Cimahi"
+    }
+  },
+  {
+    "pk": 3278,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kota Tasikmalaya"
+    }
+  },
+  {
+    "pk": 3279,
+    "model": "utils.city",
+    "fields": {
+      "province": 32,
+      "name": "Kota Banjar"
+    }
+  },
+  {
+    "pk": 3301,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Cilacap"
+    }
+  },
+  {
+    "pk": 3302,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Banyumas"
+    }
+  },
+  {
+    "pk": 3303,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Purbalingga"
+    }
+  },
+  {
+    "pk": 3304,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Banjarnegara"
+    }
+  },
+  {
+    "pk": 3305,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Kebumen"
+    }
+  },
+  {
+    "pk": 3306,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Purworejo"
+    }
+  },
+  {
+    "pk": 3307,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Wonosobo"
+    }
+  },
+  {
+    "pk": 3308,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Magelang"
+    }
+  },
+  {
+    "pk": 3309,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Boyolali"
+    }
+  },
+  {
+    "pk": 3310,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Klaten"
+    }
+  },
+  {
+    "pk": 3311,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Sukoharjo"
+    }
+  },
+  {
+    "pk": 3312,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Wonogiri"
+    }
+  },
+  {
+    "pk": 3313,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Karanganyar"
+    }
+  },
+  {
+    "pk": 3314,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Sragen"
+    }
+  },
+  {
+    "pk": 3315,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Grobogan"
+    }
+  },
+  {
+    "pk": 3316,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Blora"
+    }
+  },
+  {
+    "pk": 3317,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Rembang"
+    }
+  },
+  {
+    "pk": 3318,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Pati"
+    }
+  },
+  {
+    "pk": 3319,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Kudus"
+    }
+  },
+  {
+    "pk": 3320,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Jepara"
+    }
+  },
+  {
+    "pk": 3321,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Demak"
+    }
+  },
+  {
+    "pk": 3322,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Semarang"
+    }
+  },
+  {
+    "pk": 3323,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Temanggung"
+    }
+  },
+  {
+    "pk": 3324,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Kendal"
+    }
+  },
+  {
+    "pk": 3325,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Batang"
+    }
+  },
+  {
+    "pk": 3326,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Pekalongan"
+    }
+  },
+  {
+    "pk": 3327,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Pemalang"
+    }
+  },
+  {
+    "pk": 3328,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Tegal"
+    }
+  },
+  {
+    "pk": 3329,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kab. Brebes"
+    }
+  },
+  {
+    "pk": 3371,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kota Magelang"
+    }
+  },
+  {
+    "pk": 3372,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kota Surakarta"
+    }
+  },
+  {
+    "pk": 3373,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kota Salatiga"
+    }
+  },
+  {
+    "pk": 3374,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kota Semarang"
+    }
+  },
+  {
+    "pk": 3375,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kota Pekalongan"
+    }
+  },
+  {
+    "pk": 3376,
+    "model": "utils.city",
+    "fields": {
+      "province": 33,
+      "name": "Kota Tegal"
+    }
+  },
+  {
+    "pk": 3401,
+    "model": "utils.city",
+    "fields": {
+      "province": 20,
+      "name": "Kab. Kulon Progo"
+    }
+  },
+  {
+    "pk": 3402,
+    "model": "utils.city",
+    "fields": {
+      "province": 20,
+      "name": "Kab. Bantul"
+    }
+  },
+  {
+    "pk": 3403,
+    "model": "utils.city",
+    "fields": {
+      "province": 20,
+      "name": "Kab. Gunung Kidul"
+    }
+  },
+  {
+    "pk": 3404,
+    "model": "utils.city",
+    "fields": {
+      "province": 20,
+      "name": "Kab. Sleman"
+    }
+  },
+  {
+    "pk": 3471,
+    "model": "utils.city",
+    "fields": {
+      "province": 20,
+      "name": "Kota Yogyakarta"
+    }
+  },
+  {
+    "pk": 3501,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Pacitan"
+    }
+  },
+  {
+    "pk": 3502,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Ponorogo"
+    }
+  },
+  {
+    "pk": 3503,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Trenggalek"
+    }
+  },
+  {
+    "pk": 3504,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Tulungagung"
+    }
+  },
+  {
+    "pk": 3505,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Blitar"
+    }
+  },
+  {
+    "pk": 3506,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Kediri"
+    }
+  },
+  {
+    "pk": 3507,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Malang"
+    }
+  },
+  {
+    "pk": 3508,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Lumajang"
+    }
+  },
+  {
+    "pk": 3509,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Jember"
+    }
+  },
+  {
+    "pk": 3510,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Banyuwangi"
+    }
+  },
+  {
+    "pk": 3511,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Bondowoso"
+    }
+  },
+  {
+    "pk": 3512,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Situbondo"
+    }
+  },
+  {
+    "pk": 3513,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Probolinggo"
+    }
+  },
+  {
+    "pk": 3514,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Pasuruan"
+    }
+  },
+  {
+    "pk": 3515,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Sidoarjo"
+    }
+  },
+  {
+    "pk": 3516,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Mojokerto"
+    }
+  },
+  {
+    "pk": 3517,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Jombang"
+    }
+  },
+  {
+    "pk": 3518,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Nganjuk"
+    }
+  },
+  {
+    "pk": 3519,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Madiun"
+    }
+  },
+  {
+    "pk": 3520,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Magetan"
+    }
+  },
+  {
+    "pk": 3521,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Ngawi"
+    }
+  },
+  {
+    "pk": 3522,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Bojonegoro"
+    }
+  },
+  {
+    "pk": 3523,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Tuban"
+    }
+  },
+  {
+    "pk": 3524,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Lamongan"
+    }
+  },
+  {
+    "pk": 3525,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Gresik"
+    }
+  },
+  {
+    "pk": 3526,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Bangkalan"
+    }
+  },
+  {
+    "pk": 3527,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Sampang"
+    }
+  },
+  {
+    "pk": 3528,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Pamekasan"
+    }
+  },
+  {
+    "pk": 3529,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kab. Sumenep"
+    }
+  },
+  {
+    "pk": 3571,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kota Kediri"
+    }
+  },
+  {
+    "pk": 3572,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kota Blitar"
+    }
+  },
+  {
+    "pk": 3573,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kota Malang"
+    }
+  },
+  {
+    "pk": 3574,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kota Probolinggo"
+    }
+  },
+  {
+    "pk": 3575,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kota Pasuruan"
+    }
+  },
+  {
+    "pk": 3576,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kota Mojokerto"
+    }
+  },
+  {
+    "pk": 3577,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kota Madiun"
+    }
+  },
+  {
+    "pk": 3578,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kota Surabaya"
+    }
+  },
+  {
+    "pk": 3579,
+    "model": "utils.city",
+    "fields": {
+      "province": 35,
+      "name": "Kota Batu"
+    }
+  },
+  {
+    "pk": 3601,
+    "model": "utils.city",
+    "fields": {
+      "province": 36,
+      "name": "Kab. Pandeglang"
+    }
+  },
+  {
+    "pk": 3602,
+    "model": "utils.city",
+    "fields": {
+      "province": 36,
+      "name": "Kab. Lebak"
+    }
+  },
+  {
+    "pk": 3603,
+    "model": "utils.city",
+    "fields": {
+      "province": 36,
+      "name": "Kab. Tangerang"
+    }
+  },
+  {
+    "pk": 3604,
+    "model": "utils.city",
+    "fields": {
+      "province": 36,
+      "name": "Kab. Serang"
+    }
+  },
+  {
+    "pk": 3671,
+    "model": "utils.city",
+    "fields": {
+      "province": 36,
+      "name": "Kota Tangerang"
+    }
+  },
+  {
+    "pk": 3672,
+    "model": "utils.city",
+    "fields": {
+      "province": 36,
+      "name": "Kota Cilegon"
+    }
+  },
+  {
+    "pk": 3673,
+    "model": "utils.city",
+    "fields": {
+      "province": 36,
+      "name": "Kota Serang"
+    }
+  },
+  {
+    "pk": 3674,
+    "model": "utils.city",
+    "fields": {
+      "province": 36,
+      "name": "Kota Tangerang Selatan"
+    }
+  },
+  {
+    "pk": 5101,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Kab. Jembrana"
+    }
+  },
+  {
+    "pk": 5102,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Kab. Tabanan"
+    }
+  },
+  {
+    "pk": 5103,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Kab. Badung"
+    }
+  },
+  {
+    "pk": 5104,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Kab. Gianyar"
+    }
+  },
+  {
+    "pk": 5105,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Kab. Klungkung"
+    }
+  },
+  {
+    "pk": 5106,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Kab. Bangli"
+    }
+  },
+  {
+    "pk": 5107,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Kab. Karang Asem"
+    }
+  },
+  {
+    "pk": 5108,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Kab. Buleleng"
+    }
+  },
+  {
+    "pk": 5171,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Kota Denpasar"
+    }
+  },
+  {
+    "pk": 5201,
+    "model": "utils.city",
+    "fields": {
+      "province": 52,
+      "name": "Kab. Lombok Barat"
+    }
+  },
+  {
+    "pk": 5202,
+    "model": "utils.city",
+    "fields": {
+      "province": 52,
+      "name": "Kab. Lombok Tengah"
+    }
+  },
+  {
+    "pk": 5203,
+    "model": "utils.city",
+    "fields": {
+      "province": 52,
+      "name": "Kab. Lombok Timur"
+    }
+  },
+  {
+    "pk": 5204,
+    "model": "utils.city",
+    "fields": {
+      "province": 52,
+      "name": "Kab. Sumbawa"
+    }
+  },
+  {
+    "pk": 5205,
+    "model": "utils.city",
+    "fields": {
+      "province": 52,
+      "name": "Kab. Dompu"
+    }
+  },
+  {
+    "pk": 5206,
+    "model": "utils.city",
+    "fields": {
+      "province": 52,
+      "name": "Kab. Bima"
+    }
+  },
+  {
+    "pk": 5207,
+    "model": "utils.city",
+    "fields": {
+      "province": 52,
+      "name": "Kab. Sumbawa Barat"
+    }
+  },
+  {
+    "pk": 5208,
+    "model": "utils.city",
+    "fields": {
+      "province": 52,
+      "name": "Kab. Lombok Utara"
+    }
+  },
+  {
+    "pk": 5271,
+    "model": "utils.city",
+    "fields": {
+      "province": 52,
+      "name": "Kota Mataram"
+    }
+  },
+  {
+    "pk": 5272,
+    "model": "utils.city",
+    "fields": {
+      "province": 52,
+      "name": "Kota Bima"
+    }
+  },
+  {
+    "pk": 5301,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Sumba Barat"
+    }
+  },
+  {
+    "pk": 5302,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Sumba Timur"
+    }
+  },
+  {
+    "pk": 5303,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Kupang"
+    }
+  },
+  {
+    "pk": 5304,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Timor Tengah Selatan"
+    }
+  },
+  {
+    "pk": 5305,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Timor Tengah Utara"
+    }
+  },
+  {
+    "pk": 5306,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Belu"
+    }
+  },
+  {
+    "pk": 5307,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Alor"
+    }
+  },
+  {
+    "pk": 5308,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Lembata"
+    }
+  },
+  {
+    "pk": 5309,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Flores Timur"
+    }
+  },
+  {
+    "pk": 5310,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Sikka"
+    }
+  },
+  {
+    "pk": 5311,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Ende"
+    }
+  },
+  {
+    "pk": 5312,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Ngada"
+    }
+  },
+  {
+    "pk": 5313,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Manggarai"
+    }
+  },
+  {
+    "pk": 5314,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Rote Ndao"
+    }
+  },
+  {
+    "pk": 5315,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Manggarai Barat"
+    }
+  },
+  {
+    "pk": 5316,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Sumba Tengah"
+    }
+  },
+  {
+    "pk": 5317,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Sumba Barat Daya"
+    }
+  },
+  {
+    "pk": 5318,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Nagekeo"
+    }
+  },
+  {
+    "pk": 5319,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Manggarai Timur"
+    }
+  },
+  {
+    "pk": 5320,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kab. Sabu Raijua"
+    }
+  },
+  {
+    "pk": 5371,
+    "model": "utils.city",
+    "fields": {
+      "province": 53,
+      "name": "Kota Kupang"
+    }
+  },
+  {
+    "pk": 6101,
+    "model": "utils.city",
+    "fields": {
+      "province": 61,
+      "name": "Kab. Sambas"
+    }
+  },
+  {
+    "pk": 6102,
+    "model": "utils.city",
+    "fields": {
+      "province": 61,
+      "name": "Kab. Bengkayang"
+    }
+  },
+  {
+    "pk": 6103,
+    "model": "utils.city",
+    "fields": {
+      "province": 61,
+      "name": "Kab. Landak"
+    }
+  },
+  {
+    "pk": 6104,
+    "model": "utils.city",
+    "fields": {
+      "province": 61,
+      "name": "Kab. Pontianak"
+    }
+  },
+  {
+    "pk": 6105,
+    "model": "utils.city",
+    "fields": {
+      "province": 61,
+      "name": "Kab. Sanggau"
+    }
+  },
+  {
+    "pk": 6106,
+    "model": "utils.city",
+    "fields": {
+      "province": 61,
+      "name": "Kab. Ketapang"
+    }
+  },
+  {
+    "pk": 6107,
+    "model": "utils.city",
+    "fields": {
+      "province": 61,
+      "name": "Kab. Sintang"
+    }
+  },
+  {
+    "pk": 6108,
+    "model": "utils.city",
+    "fields": {
+      "province": 61,
+      "name": "Kab. Kapuas Hulu"
+    }
+  },
+  {
+    "pk": 6109,
+    "model": "utils.city",
+    "fields": {
+      "province": 61,
+      "name": "Kab. Sekadau"
+    }
+  },
+  {
+    "pk": 6110,
+    "model": "utils.city",
+    "fields": {
+      "province": 61,
+      "name": "Kab. Melawi"
+    }
+  },
+  {
+    "pk": 6111,
+    "model": "utils.city",
+    "fields": {
+      "province": 61,
+      "name": "Kab. Kayong Utara"
+    }
+  },
+  {
+    "pk": 6112,
+    "model": "utils.city",
+    "fields": {
+      "province": 61,
+      "name": "Kab. Kubu Raya"
+    }
+  },
+  {
+    "pk": 6171,
+    "model": "utils.city",
+    "fields": {
+      "province": 61,
+      "name": "Kota Pontianak"
+    }
+  },
+  {
+    "pk": 6172,
+    "model": "utils.city",
+    "fields": {
+      "province": 61,
+      "name": "Kota Singkawang"
+    }
+  },
+  {
+    "pk": 6201,
+    "model": "utils.city",
+    "fields": {
+      "province": 62,
+      "name": "Kab. Kotawaringin Barat"
+    }
+  },
+  {
+    "pk": 6202,
+    "model": "utils.city",
+    "fields": {
+      "province": 62,
+      "name": "Kab. Kotawaringin Timur"
+    }
+  },
+  {
+    "pk": 6203,
+    "model": "utils.city",
+    "fields": {
+      "province": 62,
+      "name": "Kab. Kapuas"
+    }
+  },
+  {
+    "pk": 6204,
+    "model": "utils.city",
+    "fields": {
+      "province": 62,
+      "name": "Kab. Barito Selatan"
+    }
+  },
+  {
+    "pk": 6205,
+    "model": "utils.city",
+    "fields": {
+      "province": 62,
+      "name": "Kab. Barito Utara"
+    }
+  },
+  {
+    "pk": 6206,
+    "model": "utils.city",
+    "fields": {
+      "province": 62,
+      "name": "Kab. Sukamara"
+    }
+  },
+  {
+    "pk": 6207,
+    "model": "utils.city",
+    "fields": {
+      "province": 62,
+      "name": "Kab. Lamandau"
+    }
+  },
+  {
+    "pk": 6208,
+    "model": "utils.city",
+    "fields": {
+      "province": 62,
+      "name": "Kab. Seruyan"
+    }
+  },
+  {
+    "pk": 6209,
+    "model": "utils.city",
+    "fields": {
+      "province": 62,
+      "name": "Kab. Katingan"
+    }
+  },
+  {
+    "pk": 6210,
+    "model": "utils.city",
+    "fields": {
+      "province": 62,
+      "name": "Kab. Pulang Pisau"
+    }
+  },
+  {
+    "pk": 6211,
+    "model": "utils.city",
+    "fields": {
+      "province": 62,
+      "name": "Kab. Gunung Mas"
+    }
+  },
+  {
+    "pk": 6212,
+    "model": "utils.city",
+    "fields": {
+      "province": 62,
+      "name": "Kab. Barito Timur"
+    }
+  },
+  {
+    "pk": 6213,
+    "model": "utils.city",
+    "fields": {
+      "province": 62,
+      "name": "Kab. Murung Raya"
+    }
+  },
+  {
+    "pk": 6271,
+    "model": "utils.city",
+    "fields": {
+      "province": 62,
+      "name": "Kota Palangka Raya"
+    }
+  },
+  {
+    "pk": 6301,
+    "model": "utils.city",
+    "fields": {
+      "province": 63,
+      "name": "Kab. Tanah Laut"
+    }
+  },
+  {
+    "pk": 6302,
+    "model": "utils.city",
+    "fields": {
+      "province": 63,
+      "name": "Kab. Kota Baru"
+    }
+  },
+  {
+    "pk": 6303,
+    "model": "utils.city",
+    "fields": {
+      "province": 63,
+      "name": "Kab. Banjar"
+    }
+  },
+  {
+    "pk": 6304,
+    "model": "utils.city",
+    "fields": {
+      "province": 63,
+      "name": "Kab. Barito Kuala"
+    }
+  },
+  {
+    "pk": 6305,
+    "model": "utils.city",
+    "fields": {
+      "province": 63,
+      "name": "Kab. Tapin"
+    }
+  },
+  {
+    "pk": 6306,
+    "model": "utils.city",
+    "fields": {
+      "province": 63,
+      "name": "Kab. Hulu Sungai Selatan"
+    }
+  },
+  {
+    "pk": 6307,
+    "model": "utils.city",
+    "fields": {
+      "province": 63,
+      "name": "Kab. Hulu Sungai Tengah"
+    }
+  },
+  {
+    "pk": 6308,
+    "model": "utils.city",
+    "fields": {
+      "province": 63,
+      "name": "Kab. Hulu Sungai Utara"
+    }
+  },
+  {
+    "pk": 6309,
+    "model": "utils.city",
+    "fields": {
+      "province": 63,
+      "name": "Kab. Tabalong"
+    }
+  },
+  {
+    "pk": 6310,
+    "model": "utils.city",
+    "fields": {
+      "province": 63,
+      "name": "Kab. Tanah Bumbu"
+    }
+  },
+  {
+    "pk": 6311,
+    "model": "utils.city",
+    "fields": {
+      "province": 63,
+      "name": "Kab. Balangan"
+    }
+  },
+  {
+    "pk": 6371,
+    "model": "utils.city",
+    "fields": {
+      "province": 63,
+      "name": "Kota Banjarmasin"
+    }
+  },
+  {
+    "pk": 6372,
+    "model": "utils.city",
+    "fields": {
+      "province": 63,
+      "name": "Kota Banjar Baru"
+    }
+  },
+  {
+    "pk": 6401,
+    "model": "utils.city",
+    "fields": {
+      "province": 64,
+      "name": "Kab. Paser"
+    }
+  },
+  {
+    "pk": 6402,
+    "model": "utils.city",
+    "fields": {
+      "province": 64,
+      "name": "Kab. Kutai Barat"
+    }
+  },
+  {
+    "pk": 6403,
+    "model": "utils.city",
+    "fields": {
+      "province": 64,
+      "name": "Kab. Kutai Kartanegara"
+    }
+  },
+  {
+    "pk": 6404,
+    "model": "utils.city",
+    "fields": {
+      "province": 64,
+      "name": "Kab. Kutai Timur"
+    }
+  },
+  {
+    "pk": 6405,
+    "model": "utils.city",
+    "fields": {
+      "province": 64,
+      "name": "Kab. Berau"
+    }
+  },
+  {
+    "pk": 6409,
+    "model": "utils.city",
+    "fields": {
+      "province": 64,
+      "name": "Kab. Penajam Paser Utara"
+    }
+  },
+  {
+    "pk": 6471,
+    "model": "utils.city",
+    "fields": {
+      "province": 64,
+      "name": "Kota Balikpapan"
+    }
+  },
+  {
+    "pk": 6472,
+    "model": "utils.city",
+    "fields": {
+      "province": 64,
+      "name": "Kota Samarinda"
+    }
+  },
+  {
+    "pk": 6474,
+    "model": "utils.city",
+    "fields": {
+      "province": 64,
+      "name": "Kota Bontang"
+    }
+  },
+  {
+    "pk": 6501,
+    "model": "utils.city",
+    "fields": {
+      "province": 65,
+      "name": "Kab. Malinau"
+    }
+  },
+  {
+    "pk": 6502,
+    "model": "utils.city",
+    "fields": {
+      "province": 65,
+      "name": "Kab. Bulungan"
+    }
+  },
+  {
+    "pk": 6503,
+    "model": "utils.city",
+    "fields": {
+      "province": 65,
+      "name": "Kab. Tana Tidung"
+    }
+  },
+  {
+    "pk": 6504,
+    "model": "utils.city",
+    "fields": {
+      "province": 65,
+      "name": "Kab. Nunukan"
+    }
+  },
+  {
+    "pk": 6571,
+    "model": "utils.city",
+    "fields": {
+      "province": 65,
+      "name": "Kota Tarakan"
+    }
+  },
+  {
+    "pk": 7101,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kab. Bolaang Mongondow"
+    }
+  },
+  {
+    "pk": 7102,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kab. Minahasa"
+    }
+  },
+  {
+    "pk": 7103,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kab. Kepulauan Sangihe"
+    }
+  },
+  {
+    "pk": 7104,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kab. Kepulauan Talaud"
+    }
+  },
+  {
+    "pk": 7105,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kab. Minahasa Selatan"
+    }
+  },
+  {
+    "pk": 7106,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kab. Minahasa Utara"
+    }
+  },
+  {
+    "pk": 7107,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kab. Bolaang Mongondow Utara"
+    }
+  },
+  {
+    "pk": 7108,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kab. Siau Tagulandang Biaro"
+    }
+  },
+  {
+    "pk": 7109,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kab. Minahasa Tenggara"
+    }
+  },
+  {
+    "pk": 7110,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kab. Bolaang Mongondow Selatan"
+    }
+  },
+  {
+    "pk": 7111,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kab. Bolaang Mongondow Timur"
+    }
+  },
+  {
+    "pk": 7171,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kota Manado"
+    }
+  },
+  {
+    "pk": 7172,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kota Bitung"
+    }
+  },
+  {
+    "pk": 7173,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kota Tomohon"
+    }
+  },
+  {
+    "pk": 7174,
+    "model": "utils.city",
+    "fields": {
+      "province": 71,
+      "name": "Kota Kotamobagu"
+    }
+  },
+  {
+    "pk": 7201,
+    "model": "utils.city",
+    "fields": {
+      "province": 72,
+      "name": "Kab. Banggai Kepulauan"
+    }
+  },
+  {
+    "pk": 7202,
+    "model": "utils.city",
+    "fields": {
+      "province": 72,
+      "name": "Kab. Banggai"
+    }
+  },
+  {
+    "pk": 7203,
+    "model": "utils.city",
+    "fields": {
+      "province": 72,
+      "name": "Kab. Morowali"
+    }
+  },
+  {
+    "pk": 7204,
+    "model": "utils.city",
+    "fields": {
+      "province": 72,
+      "name": "Kab. Poso"
+    }
+  },
+  {
+    "pk": 7205,
+    "model": "utils.city",
+    "fields": {
+      "province": 72,
+      "name": "Kab. Donggala"
+    }
+  },
+  {
+    "pk": 7206,
+    "model": "utils.city",
+    "fields": {
+      "province": 72,
+      "name": "Kab. Toli-Toli"
+    }
+  },
+  {
+    "pk": 7207,
+    "model": "utils.city",
+    "fields": {
+      "province": 72,
+      "name": "Kab. Buol"
+    }
+  },
+  {
+    "pk": 7208,
+    "model": "utils.city",
+    "fields": {
+      "province": 72,
+      "name": "Kab. Parigi Moutong"
+    }
+  },
+  {
+    "pk": 7209,
+    "model": "utils.city",
+    "fields": {
+      "province": 72,
+      "name": "Kab. Tojo Una-Una"
+    }
+  },
+  {
+    "pk": 7210,
+    "model": "utils.city",
+    "fields": {
+      "province": 72,
+      "name": "Kab. Sigi"
+    }
+  },
+  {
+    "pk": 7271,
+    "model": "utils.city",
+    "fields": {
+      "province": 72,
+      "name": "Kota Palu"
+    }
+  },
+  {
+    "pk": 7301,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Kepulauan Selayar"
+    }
+  },
+  {
+    "pk": 7302,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Bulukumba"
+    }
+  },
+  {
+    "pk": 7303,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Bantaeng"
+    }
+  },
+  {
+    "pk": 7304,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Jeneponto"
+    }
+  },
+  {
+    "pk": 7305,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Takalar"
+    }
+  },
+  {
+    "pk": 7306,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Gowa"
+    }
+  },
+  {
+    "pk": 7307,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Sinjai"
+    }
+  },
+  {
+    "pk": 7308,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Maros"
+    }
+  },
+  {
+    "pk": 7309,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Pangkajene Dan Kepulauan"
+    }
+  },
+  {
+    "pk": 7310,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Barru"
+    }
+  },
+  {
+    "pk": 7311,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Bone"
+    }
+  },
+  {
+    "pk": 7312,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Soppeng"
+    }
+  },
+  {
+    "pk": 7313,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Wajo"
+    }
+  },
+  {
+    "pk": 7314,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Sidenreng Rappang"
+    }
+  },
+  {
+    "pk": 7315,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Pinrang"
+    }
+  },
+  {
+    "pk": 7316,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Enrekang"
+    }
+  },
+  {
+    "pk": 7317,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Luwu"
+    }
+  },
+  {
+    "pk": 7318,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Tana Toraja"
+    }
+  },
+  {
+    "pk": 7322,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Luwu Utara"
+    }
+  },
+  {
+    "pk": 7325,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Luwu Timur"
+    }
+  },
+  {
+    "pk": 7326,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kab. Toraja Utara"
+    }
+  },
+  {
+    "pk": 7371,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kota Makassar"
+    }
+  },
+  {
+    "pk": 7372,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kota Parepare"
+    }
+  },
+  {
+    "pk": 7373,
+    "model": "utils.city",
+    "fields": {
+      "province": 73,
+      "name": "Kota Palopo"
+    }
+  },
+  {
+    "pk": 7401,
+    "model": "utils.city",
+    "fields": {
+      "province": 74,
+      "name": "Kab. Buton"
+    }
+  },
+  {
+    "pk": 7402,
+    "model": "utils.city",
+    "fields": {
+      "province": 74,
+      "name": "Kab. Muna"
+    }
+  },
+  {
+    "pk": 7403,
+    "model": "utils.city",
+    "fields": {
+      "province": 74,
+      "name": "Kab. Konawe"
+    }
+  },
+  {
+    "pk": 7404,
+    "model": "utils.city",
+    "fields": {
+      "province": 74,
+      "name": "Kab. Kolaka"
+    }
+  },
+  {
+    "pk": 7405,
+    "model": "utils.city",
+    "fields": {
+      "province": 74,
+      "name": "Kab. Konawe Selatan"
+    }
+  },
+  {
+    "pk": 7406,
+    "model": "utils.city",
+    "fields": {
+      "province": 74,
+      "name": "Kab. Bombana"
+    }
+  },
+  {
+    "pk": 7407,
+    "model": "utils.city",
+    "fields": {
+      "province": 74,
+      "name": "Kab. Wakatobi"
+    }
+  },
+  {
+    "pk": 7408,
+    "model": "utils.city",
+    "fields": {
+      "province": 74,
+      "name": "Kab. Kolaka Utara"
+    }
+  },
+  {
+    "pk": 7409,
+    "model": "utils.city",
+    "fields": {
+      "province": 74,
+      "name": "Kab. Buton Utara"
+    }
+  },
+  {
+    "pk": 7410,
+    "model": "utils.city",
+    "fields": {
+      "province": 74,
+      "name": "Kab. Konawe Utara"
+    }
+  },
+  {
+    "pk": 7471,
+    "model": "utils.city",
+    "fields": {
+      "province": 74,
+      "name": "Kota Kendari"
+    }
+  },
+  {
+    "pk": 7472,
+    "model": "utils.city",
+    "fields": {
+      "province": 74,
+      "name": "Kota Baubau"
+    }
+  },
+  {
+    "pk": 7501,
+    "model": "utils.city",
+    "fields": {
+      "province": 75,
+      "name": "Kab. Boalemo"
+    }
+  },
+  {
+    "pk": 7502,
+    "model": "utils.city",
+    "fields": {
+      "province": 75,
+      "name": "Kab. Gorontalo"
+    }
+  },
+  {
+    "pk": 7503,
+    "model": "utils.city",
+    "fields": {
+      "province": 75,
+      "name": "Kab. Pohuwato"
+    }
+  },
+  {
+    "pk": 7504,
+    "model": "utils.city",
+    "fields": {
+      "province": 75,
+      "name": "Kab. Bone Bolango"
+    }
+  },
+  {
+    "pk": 7505,
+    "model": "utils.city",
+    "fields": {
+      "province": 75,
+      "name": "Kab. Gorontalo Utara"
+    }
+  },
+  {
+    "pk": 7571,
+    "model": "utils.city",
+    "fields": {
+      "province": 75,
+      "name": "Kota Gorontalo"
+    }
+  },
+  {
+    "pk": 7601,
+    "model": "utils.city",
+    "fields": {
+      "province": 76,
+      "name": "Kab. Majene"
+    }
+  },
+  {
+    "pk": 7602,
+    "model": "utils.city",
+    "fields": {
+      "province": 76,
+      "name": "Kab. Polewali Mandar"
+    }
+  },
+  {
+    "pk": 7603,
+    "model": "utils.city",
+    "fields": {
+      "province": 76,
+      "name": "Kab. Mamasa"
+    }
+  },
+  {
+    "pk": 7604,
+    "model": "utils.city",
+    "fields": {
+      "province": 76,
+      "name": "Kab. Mamuju"
+    }
+  },
+  {
+    "pk": 7605,
+    "model": "utils.city",
+    "fields": {
+      "province": 76,
+      "name": "Kab. Mamuju Utara"
+    }
+  },
+  {
+    "pk": 8101,
+    "model": "utils.city",
+    "fields": {
+      "province": 81,
+      "name": "Kab. Maluku Tenggara Barat"
+    }
+  },
+  {
+    "pk": 8102,
+    "model": "utils.city",
+    "fields": {
+      "province": 81,
+      "name": "Kab. Maluku Tenggara"
+    }
+  },
+  {
+    "pk": 8103,
+    "model": "utils.city",
+    "fields": {
+      "province": 81,
+      "name": "Kab. Maluku Tengah"
+    }
+  },
+  {
+    "pk": 8104,
+    "model": "utils.city",
+    "fields": {
+      "province": 81,
+      "name": "Kab. Buru"
+    }
+  },
+  {
+    "pk": 8105,
+    "model": "utils.city",
+    "fields": {
+      "province": 81,
+      "name": "Kab. Kepulauan Aru"
+    }
+  },
+  {
+    "pk": 8106,
+    "model": "utils.city",
+    "fields": {
+      "province": 81,
+      "name": "Kab. Seram Bagian Barat"
+    }
+  },
+  {
+    "pk": 8107,
+    "model": "utils.city",
+    "fields": {
+      "province": 81,
+      "name": "Kab. Seram Bagian Timur"
+    }
+  },
+  {
+    "pk": 8108,
+    "model": "utils.city",
+    "fields": {
+      "province": 81,
+      "name": "Kab. Maluku Barat Daya"
+    }
+  },
+  {
+    "pk": 8109,
+    "model": "utils.city",
+    "fields": {
+      "province": 81,
+      "name": "Kab. Buru Selatan"
+    }
+  },
+  {
+    "pk": 8171,
+    "model": "utils.city",
+    "fields": {
+      "province": 81,
+      "name": "Kota Ambon"
+    }
+  },
+  {
+    "pk": 8172,
+    "model": "utils.city",
+    "fields": {
+      "province": 81,
+      "name": "Kota Tual"
+    }
+  },
+  {
+    "pk": 8201,
+    "model": "utils.city",
+    "fields": {
+      "province": 82,
+      "name": "Kab. Halmahera Barat"
+    }
+  },
+  {
+    "pk": 8202,
+    "model": "utils.city",
+    "fields": {
+      "province": 82,
+      "name": "Kab. Halmahera Tengah"
+    }
+  },
+  {
+    "pk": 8203,
+    "model": "utils.city",
+    "fields": {
+      "province": 82,
+      "name": "Kab. Kepulauan Sula"
+    }
+  },
+  {
+    "pk": 8204,
+    "model": "utils.city",
+    "fields": {
+      "province": 82,
+      "name": "Kab. Halmahera Selatan"
+    }
+  },
+  {
+    "pk": 8205,
+    "model": "utils.city",
+    "fields": {
+      "province": 82,
+      "name": "Kab. Halmahera Utara"
+    }
+  },
+  {
+    "pk": 8206,
+    "model": "utils.city",
+    "fields": {
+      "province": 82,
+      "name": "Kab. Halmahera Timur"
+    }
+  },
+  {
+    "pk": 8207,
+    "model": "utils.city",
+    "fields": {
+      "province": 82,
+      "name": "Kab. Pulau Morotai"
+    }
+  },
+  {
+    "pk": 8271,
+    "model": "utils.city",
+    "fields": {
+      "province": 82,
+      "name": "Kota Ternate"
+    }
+  },
+  {
+    "pk": 8272,
+    "model": "utils.city",
+    "fields": {
+      "province": 82,
+      "name": "Kota Tidore Kepulauan"
+    }
+  },
+  {
+    "pk": 9101,
+    "model": "utils.city",
+    "fields": {
+      "province": 91,
+      "name": "Kab. Fakfak"
+    }
+  },
+  {
+    "pk": 9102,
+    "model": "utils.city",
+    "fields": {
+      "province": 91,
+      "name": "Kab. Kaimana"
+    }
+  },
+  {
+    "pk": 9103,
+    "model": "utils.city",
+    "fields": {
+      "province": 91,
+      "name": "Kab. Teluk Wondama"
+    }
+  },
+  {
+    "pk": 9104,
+    "model": "utils.city",
+    "fields": {
+      "province": 91,
+      "name": "Kab. Teluk Bintuni"
+    }
+  },
+  {
+    "pk": 9105,
+    "model": "utils.city",
+    "fields": {
+      "province": 91,
+      "name": "Kab. Manokwari"
+    }
+  },
+  {
+    "pk": 9106,
+    "model": "utils.city",
+    "fields": {
+      "province": 91,
+      "name": "Kab. Sorong Selatan"
+    }
+  },
+  {
+    "pk": 9107,
+    "model": "utils.city",
+    "fields": {
+      "province": 91,
+      "name": "Kab. Sorong"
+    }
+  },
+  {
+    "pk": 9108,
+    "model": "utils.city",
+    "fields": {
+      "province": 91,
+      "name": "Kab. Raja Ampat"
+    }
+  },
+  {
+    "pk": 9109,
+    "model": "utils.city",
+    "fields": {
+      "province": 91,
+      "name": "Kab. Tambrauw"
+    }
+  },
+  {
+    "pk": 9110,
+    "model": "utils.city",
+    "fields": {
+      "province": 91,
+      "name": "Kab. Maybrat"
+    }
+  },
+  {
+    "pk": 9171,
+    "model": "utils.city",
+    "fields": {
+      "province": 91,
+      "name": "Kota Sorong"
+    }
+  },
+  {
+    "pk": 9401,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Merauke"
+    }
+  },
+  {
+    "pk": 9402,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Jayawijaya"
+    }
+  },
+  {
+    "pk": 9403,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Jayapura"
+    }
+  },
+  {
+    "pk": 9404,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Nabire"
+    }
+  },
+  {
+    "pk": 9408,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Kepulauan Yapen"
+    }
+  },
+  {
+    "pk": 9409,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Biak Numfor"
+    }
+  },
+  {
+    "pk": 9410,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Paniai"
+    }
+  },
+  {
+    "pk": 9411,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Puncak Jaya"
+    }
+  },
+  {
+    "pk": 9412,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Mimika"
+    }
+  },
+  {
+    "pk": 9413,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Boven Digoel"
+    }
+  },
+  {
+    "pk": 9414,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Mappi"
+    }
+  },
+  {
+    "pk": 9415,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Asmat"
+    }
+  },
+  {
+    "pk": 9416,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Yahukimo"
+    }
+  },
+  {
+    "pk": 9417,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Pegunungan Bintang"
+    }
+  },
+  {
+    "pk": 9418,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Tolikara"
+    }
+  },
+  {
+    "pk": 9419,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Sarmi"
+    }
+  },
+  {
+    "pk": 9420,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Keerom"
+    }
+  },
+  {
+    "pk": 9426,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Waropen"
+    }
+  },
+  {
+    "pk": 9427,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Supiori"
+    }
+  },
+  {
+    "pk": 9428,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Mamberamo Raya"
+    }
+  },
+  {
+    "pk": 9429,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Nduga"
+    }
+  },
+  {
+    "pk": 9430,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Lanny Jaya"
+    }
+  },
+  {
+    "pk": 9431,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Mamberamo Tengah"
+    }
+  },
+  {
+    "pk": 9432,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Yalimo"
+    }
+  },
+  {
+    "pk": 9433,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Puncak"
+    }
+  },
+  {
+    "pk": 9434,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Dogiyai"
+    }
+  },
+  {
+    "pk": 9435,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Intan Jaya"
+    }
+  },
+  {
+    "pk": 9436,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kab. Deiyai"
+    }
+  },
+  {
+    "pk": 9471,
+    "model": "utils.city",
+    "fields": {
+      "province": 94,
+      "name": "Kota Jayapura"
+    }
+  },
+  {
+    "pk": 9556,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Resto Ming"
+    }
+  },
+  {
+    "pk": 9564,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Kuta"
+    }
+  },
+  {
+    "pk": 9565,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Nusa Dua"
+    }
+  },
+  {
+    "pk": 9566,
+    "model": "utils.city",
+    "fields": {
+      "province": 51,
+      "name": "Kuta Utara"
+    }
+  }
+]

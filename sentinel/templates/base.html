@@ -1,0 +1,181 @@
+{% load i18n %}
+{% load staticfiles %}
+{% load avatar_tags %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Sentinel | Dashboard</title>
+
+  <link href="{% static 'css/main.css' %}" rel="stylesheet">
+
+  <link href="{% static 'js/plugins/jquery-ui-1.12.1.custom/jquery-ui.css' %}" rel="stylesheet">
+  <link href="{% static 'css/plugins/steps/jquery.steps.css' %}" rel="stylesheet">
+
+  <link href="{% static 'fancybox/dist/jquery.fancybox.min.css' %}" rel="stylesheet">
+
+</head>
+
+<!-- Mainly scripts -->
+  <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/plugins/metisMenu/jquery.metisMenu.js' %}"></script>
+  <script src="{% static 'js/plugins/slimscroll/jquery.slimscroll.min.js' %}"></script>
+
+  <!-- Custom and plugin javascript -->
+  <script src="{% static 'js/inspinia.js' %}"></script>
+  <script src="{% static 'js/plugins/pace/pace.min.js' %}"></script>
+
+  <script src="{% static 'inputmask/jquery.mask.js' %}"></script>
+
+  <!-- jQuery UI -->
+  <script src="{% static 'js/plugins/jquery-ui-1.12.1.custom/jquery-ui.js' %}"></script>
+
+  <script src="{% static 'fancybox/dist/jquery.fancybox.min.js' %}"></script>
+
+  <script src="{% static 'js/main.js' %}"></script>
+
+<body>
+  <div id="wrapper">
+    <nav class="navbar-default navbar-static-side" role="navigation">
+      <div class="sidebar-collapse">
+
+        <ul class="nav metismenu" id="side-menu">
+          <li class="nav-header">
+            <div class="dropdown profile-element">
+              <span>
+                {% avatar user 65 class="img-circle img-responsive" id="user_avatar" %}
+              </span>
+
+              <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <span class="clear"><span class="block m-t-xs"><strong class="font-bold">{{ request.user }}</strong>
+                </span> <span class="text-muted text-xs block">Staff <b class="caret"></b></span> </span>
+              </a>
+              <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                {% if request.user.is_authenticated %}
+                  <li><a href="{% url 'users:detail' request.user %}">{% trans 'Profile' %}</a></li>
+                  <li><a href="{% url 'avatar_change' %}">Change your avatar</a></li>
+                  <li class="divider"></li>
+                  <li><a href="{% url 'account_logout' %}?next={% url 'account_login' %}">{% trans 'Logout' %}</a></li>
+                {% else %}
+                  <li><a href="{% url 'account_login' %}">{% trans "Log in" %}</a></li>
+                {% endif %}
+              </ul>
+            </div>
+            <div class="logo-element">
+              Stl
+            </div>
+          </li>
+          {% if request.user.is_authenticated %}
+          <li class="{% block dashboard_nav_class %}{% endblock %}">
+            <a href="{% url 'agents:list' %}"><i class="fa fa-th-large"></i> <span class="nav-label">{% trans 'Dashboard' %}</span></a>
+          </li>
+          <li class="{% block agents_nav_class %}{% endblock %}">
+            <a href="{% url 'agents:list' %}"><i class="fa fa-users"></i> <span class="nav-label">{% trans 'Agents' %}</span></a>
+          </li>
+          <li class="{% block investors_nav_class %}{% endblock %}">
+            <a href="{% url 'investors:list' %}"><i class="fa fa-address-book"></i> <span class="nav-label">{% trans 'Investors' %}</span></a>
+          </li>
+          <li class="{% block transactions_nav_class %}{% endblock %}">
+            <a href="#"><i class="fa fa-money"></i> <span class="nav-label">{% trans 'Transactions' %}</span> <span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level collapse">
+              <li class="{% block transactions_deposits_nav_class %}{% endblock %}">
+                <a href="{% url 'transactions:deposit_list' %}"><i class="fa fa-arrow-down"></i> {% trans 'Deposits' %}</a>
+              </li>
+              <li class="{% block transactions_withdrawals_nav_class %}{% endblock %}">
+                <a href="{% url 'transactions:withdrawal_list' %}"><i class="fa fa-arrow-up"></i> {% trans 'Withdrawals' %}</a>
+              </li>
+            </ul>
+          </li>
+          <li class="{% block settings_nav_class %}{% endblock %}">
+            <a href="#"><i class="fa fa-wrench"></i> <span class="nav-label">Settings</span> <span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level collapse">
+              <li class="{% block settings_office_nav_class %}{% endblock %}">
+                <a href="{% url 'settings:office_list' %}"><i class="fa fa-institution"></i> {% trans 'Offices' %}</a>
+              </li>
+            </ul>
+          </li>
+          {% endif %}
+        </ul>
+
+      </div>
+    </nav>
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+      <div class="row border-bottom">
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+          <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+          </div>
+          <ul class="nav navbar-top-links navbar-right">
+            {% if request.user.is_authenticated %}
+            <li>
+              <a href="{% url 'account_logout' %}?next={% url 'account_login' %}">
+                <i class="fa fa-sign-out"></i> {% trans "Log out" %}
+              </a>
+            </li>
+            {% else %}
+            <li>
+              <a href="{% url 'account_login' %}">
+                <i class="fa fa-sign-in"></i> {% trans "Log in" %}
+              </a>
+            </li>
+            {% endif %}
+          </ul>
+        </nav>
+      </div>
+
+      {% block breadcrumb %}
+      <div class="row wrapper border-bottom white-bg page-heading">
+        <div class="col-sm-8">
+          <h2>{% block breadcrumb_title %}{% endblock breadcrumb_title %}</h2>
+          <ol class="breadcrumb">
+            {% block breadcrumb_items %}
+            <li>
+              <a href="/">{% trans "Home" %}</a>
+            </li>
+            {% endblock breadcrumb_items %}
+          </ol>
+        </div>
+        <div class="col-sm-4">
+          <div class="title-action">
+            {% block page_actions %}{% endblock page_actions %}
+          </div>
+        </div>
+      </div>
+      {% endblock %}
+
+      <div class="wrapper wrapper-content animated fadeInRight">
+        {% block content %}{% endblock content %}
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Mainly scripts -->
+  <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/plugins/metisMenu/jquery.metisMenu.js' %}"></script>
+  <script src="{% static 'js/plugins/slimscroll/jquery.slimscroll.min.js' %}"></script>
+
+  <!-- Custom and plugin javascript -->
+  <script src="{% static 'js/inspinia.js' %}"></script>
+  <script src="{% static 'js/jquery.mask.js' %}"></script>
+  <script src="{% static 'js/plugins/pace/pace.min.js' %}"></script>
+
+  <!-- jQuery UI -->
+  <script src="{% static 'js/plugins/jquery-ui-1.12.1.custom/jquery-ui.js' %}"></script>
+  <script src="{% static 'js/main.js' %}"></script>
+
+  {% block extrajs %}
+  {% endblock extrajs %}
+
+</body>
+</html>

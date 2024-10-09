@@ -1,0 +1,93 @@
+{% extends "investors/base.html" %}
+{% load i18n %}
+{% load staticfiles %}
+
+{% block breadcrumb_title %}{% trans "Investors" %}{% endblock breadcrumb_title %}
+
+{% block breadcrumb_items %}
+  {{ block.super }}
+  <li class="active">
+    <strong>{% trans "Investors" %}</strong>
+  </li>
+{% endblock %}
+
+{% block page_actions %}
+  <a class="btn btn-primary" href="{% url 'investors:register' %}" role="button">{% trans "Register New Investor" %}</a>
+{% endblock page_actions %}
+
+
+{% block content %}
+	<div class="ibox float-e-margins">
+		<div class="ibox-title">
+			<h5>Investor List</h5>
+		</div>
+
+		<div class="ibox-content">
+
+			<div class="row">
+				<div class="col-md-12">
+
+				{% if investor_list %}
+
+					<table class="table table-responsive table-hover">
+					<thead>
+					<tr>
+						<th>Name</th>
+						<th>Type</th>
+						<th>Phone</th>
+						<th>Mobile</th>
+						<th>Financial Consultant</th>
+						<th>Created</th>
+					</tr>
+					</thead>
+					{% for investor in investor_list %}
+						<tr>
+							<td><a href="{% url 'investors:detail' investor.id %}">{{ investor.name }}</a></td>
+							<td>{{ investor.investor_type }}</td>
+							<td>{{ investor.phone }}</td>
+							<td>{{ investor.mobile1 }}</td>
+							<td>{{ investor.financial_consultant }}</td>
+							<td>{{ investor.created }}</td>
+						</tr>
+					{% endfor %}
+
+					</table>
+
+				{% else %}
+		    		<p>investor is not available.</p>
+				{% endif %}
+
+				{% if is_paginated %}
+				<nav aria-label="Page navigation">
+		        <ul class="pagination">
+		            {% if page_obj.has_previous %}
+		                <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}">&laquo;</a></li>
+		            {% else %}
+		                <li class="page-item disabled"><a class="page-link" href="#">&laquo;</a></li>
+		            {% endif %}
+
+		            {% for num in page_obj.paginator.page_range %}
+		                {% ifequal num page_obj.number %}
+		                    <li class="page-item active"><a class="page-link" href="#">{{ num }}<span class="sr-only">(current)</span></a></li>
+		                {% else %}
+		                    <li class="page-item"><a class="page-link" href="?page={{ num }}">{{ num }}</a></li>
+		                {% endifequal %}
+		            {% endfor %}
+
+		            {% if page_obj.has_next %}
+		                 <li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}">&raquo;</a></li>
+		            {% else %}
+		                 <li class="page-item disabled"><a class="page-link" href="#">&raquo;</a></li>
+		            {% endif %}
+		        <ul>
+		        </nav>
+		        {% endif %}
+
+		        </div>
+			</div>
+
+		</div>
+
+	</div>
+
+{% endblock content %}

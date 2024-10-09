@@ -1,0 +1,69 @@
+{% extends "agents/base.html" %}
+{% load i18n %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+{% block breadcrumb_title %}{% trans "Register New Agent" %}{% endblock breadcrumb_title %}
+
+{% block breadcrumb_items %}
+  {{ block.super }}
+	<li>
+    <a href="{% url 'agents:list' %}">{% trans "Agents" %}</a>
+  </li>
+  <li class="active">
+    <strong>{% trans "Register New Agent" %}</strong>
+  </li>
+{% endblock %}
+
+{% block content %}
+
+	<form id="form-register" class="form-horizontal" action="{% url 'agents:register' %}" method="post" enctype="multipart/form-data">
+	<div id="wizard" class="sentinel-wizard wizard clearfix">
+
+		<div class="steps clearfix">
+			<ul role="tablist">
+				<li role="tab" {% if wizard.steps.step1 == 1 %} class="current" {% else %} class="done" {% endif %} >
+					<a id="wizard-t-0">
+						{% if wizard.steps.step1 > 1 %}
+						<button class="step-previous-wizard" name="wizard_goto_step" type="submit" value="{{ wizard.steps.first }}"><span class="number">1.</span> {% trans "Agent Form" %}</button>
+						{% else %}
+						<span class="number">1.</span> {% trans "Agent Form" %}
+						{% endif %}
+					</a>
+				</li>
+
+				<li role="tab" {% if wizard.steps.step1 == 2 %} class="current" {% elif wizard.steps.step1 > 2 %} class="done" {% else %} class="disabled" {% endif %}>
+					<a id="wizard-t-1">
+						{% if wizard.steps.step1 == 3 %}
+						<button class="step-previous-wizard" name="wizard_goto_step" type="submit" value="{{ wizard.steps.prev }}"><span class="number">2.</span> {% trans "Investor Form" %}</button>
+						{% else %}
+						<span class="number">2.</span> {% trans "Investor Form" %}
+						{% endif %}
+					</a>
+				</li>
+
+				<li role="tab" {% if wizard.steps.step1 == 3 %} class="current" {% elif wizard.steps.step1 > 2 %} class="done" {% else %} class="disabled" {% endif %}>
+					<a id="wizard-t-1">
+						{% if wizard.steps.step1 > 3 %}
+						<button class="step-previous-wizard" name="wizard_goto_step" type="submit" value="{{ wizard.steps.prev }}"><span class="number">3.</span> {% trans "Deposit Form" %}</button>
+						{% else %}
+						<span class="number">3.</span> {% trans "Deposit Form" %}
+						{% endif %}
+					</a>
+				</li>
+
+				<li role="tab" {% if wizard.steps.step1 == 4 %} class="current" {% else %} class="disabled" {% endif %}>
+					<a id="wizard-t-2">
+						<span class="number">4.</span> {% trans "Confirm" %}
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+		{{ wizard.management_form }}
+		{% crispy wizard.form %}
+
+	</form>
+
+{% endblock content %}

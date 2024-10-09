@@ -1,0 +1,106 @@
+{% extends "investors/base_deposit.html" %}
+{% load i18n %}
+{% load l10n %}
+{% load staticfiles %}
+{% load humanize %}
+
+{% block breadcrumb_title %}{% trans "Deposits" %}{% endblock breadcrumb_title %}
+
+{% block breadcrumb_items %}
+  {{ block.super }}
+  <li class="active">
+    <strong>{% trans "Deposits" %}</strong>
+  </li>
+{% endblock %}
+
+{% block page_actions %}
+  <a class="btn btn-primary" href="{% url 'transactions:deposit_create' %}" role="button">{% trans "Make Deposit" %}</a>
+{% endblock page_actions %}
+
+{% block content %}
+	<div class="ibox float-e-margins">
+		<div class="ibox-title">
+			<h5>Deposit List</h5>
+		</div>
+
+		<div class="ibox-content">
+
+			<div class="row">
+				<div class="col-md-12">
+
+				{% if deposit_list %}
+
+					<table class="table table-responsive table-hover">
+					<thead>
+					<tr>
+						<th>Formulir No.</th>
+						<th>Investor Name</th>
+						<th>Type</th>
+						<th class="text-right">Deposit <br>(Rp.)</th>
+						<th>Transaction Type</th>
+						<th>Bank Account Name</th>
+						<th>Bank Name</th>
+						<th>Transaction Date</th>
+						<th class="text-right">Tenor <br>(months)</th>
+						<th class="text-right">Return <br>(%p.a)</th>
+						<th>Product Type</th>
+						<th>Created</th>
+					</tr>
+					</thead>
+					{% for deposit in deposit_list %}
+						<tr>
+							<td>{{ deposit.form_no }}</td>
+							<td><a href="{% url 'transactions:investor_detail' deposit.investor.id %}">{{ deposit.investor }}</a></td>
+							<td>{{ deposit.get_deposit_type_display }}</td>
+							<td class="text-right">{{ deposit.amount|default_if_none:"0"|intcomma }}</td>
+							<td>{{ deposit.get_transaction_type_display }}</td>
+							<td>{{ deposit.bank_acc_name }}</td>
+							<td>{{ deposit.bank_name }}</td>
+							<td>{{ deposit.transaction_date }}</td>
+							<td class="text-right">{{ deposit.invest_tenor }}</td>
+							<td class="text-right">{{ deposit.invest_return|default_if_none:"0" }}</td>
+							<td>{{ deposit.product_type }}</td>
+							<td>{{ deposit.created }}</td>
+						</tr>
+					{% endfor %}
+
+					</table>
+
+				{% else %}
+		    		<p>transaction is not available.</p>
+				{% endif %}
+
+				{% if is_paginated %}
+				<nav aria-label="Page navigation">
+		        <ul class="pagination">
+		            {% if page_obj.has_previous %}
+		                <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}">&laquo;</a></li>
+		            {% else %}
+		                <li class="page-item disabled"><a class="page-link" href="#">&laquo;</a></li>
+		            {% endif %}
+
+		            {% for num in page_obj.paginator.page_range %}
+		                {% ifequal num page_obj.number %}
+		                    <li class="page-item active"><a class="page-link" href="#">{{ num }}<span class="sr-only">(current)</span></a></li>
+		                {% else %}
+		                    <li class="page-item"><a class="page-link" href="?page={{ num }}">{{ num }}</a></li>
+		                {% endifequal %}
+		            {% endfor %}
+
+		            {% if page_obj.has_next %}
+		                 <li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}">&raquo;</a></li>
+		            {% else %}
+		                 <li class="page-item disabled"><a class="page-link" href="#">&raquo;</a></li>
+		            {% endif %}
+		        <ul>
+		        </nav>
+		        {% endif %}
+
+		        </div>
+			</div>
+
+		</div>
+
+	</div>
+
+{% endblock content %}

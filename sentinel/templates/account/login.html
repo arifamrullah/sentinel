@@ -1,0 +1,18 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+{% block site_title_content %}{% trans "Login" %}{% endblock %}
+
+{% block content %}
+  <form class="m-t" role="form" method="post" action="">
+    {% csrf_token %}
+    {% crispy form %}
+
+    <button type="submit" class="btn btn-primary block full-width m-b">{% trans "Log in" %}</button>
+
+    <a href="{% url 'account_reset_password' %}"><small>{% trans "Forgot password?" %}</small></a>
+  </form>
+{% endblock content %}

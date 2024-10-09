@@ -1,0 +1,157 @@
+{% extends "investors/base_deposit.html" %}
+{% load i18n %}
+{% load staticfiles %}
+
+{% block breadcrumb_title %}{% trans "Investor Detail" %}{% endblock breadcrumb_title %}
+
+{% block breadcrumb_items %}
+  {{ block.super }}
+	<li>
+    <a href="{% url 'transactions:deposit_list' %}">{% trans "Investors" %}</a>
+  </li>
+  <li class="active">
+    <strong>{% trans "Investor Detail" %}</strong>
+  </li>
+{% endblock %}
+
+{% block content %}
+<div class="ibox float-e-margins">
+    <div class="ibox-title">
+      <h5>Personal Information</h5>
+      <div class="ibox-tools">
+        <a class="collapse-link">
+          <i class="fa fa-chevron-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="ibox-content">
+
+			    <div class="row row-preview">
+            <div class="col-sm-5 field-left">Investor Type</div>
+            <div class="col-sm-7 field-right">{{ investor.investor_type }}</div>
+          </div>
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left">Name</div>
+            <div class="col-sm-7 field-right">{{ investor.name | default:'-' }}</div>
+          </div>
+          <br>
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left">National ID Card No.</div>
+            <div class="col-sm-7 field-right">{{ investor.national_id_card_no | default:'-' }}</div>
+          </div>
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left ">Address</div>
+            <div class="col-sm-7 field-right">{{ investor.address | default:'-' }}</div>
+          </div>
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left ">Province</div>
+            <div class="col-sm-7 field-right">{{ investor.province }}</div>
+          </div>
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left ">City</div>
+            <div class="col-sm-7 field-right">{{ investor.city }}</div>
+          </div>
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left ">Postal Code</div>
+            <div class="col-sm-7 field-right">{{ investor.postal_code | default:'-' }}</div>
+          </div>
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left ">Phone</div>
+            <div class="col-sm-7 field-right">{{ investor.phone | default:'-' }}</div>
+          </div>
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left ">Hp</div>
+            <div class="col-sm-7 field-right">{{ investor.mobile1 | default:'-' }}</div>
+          </div>
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left ">Other Hp</div>
+            <div class="col-sm-7 field-right">{{ investor.mobile2 | default:'-' }}</div>
+          </div>
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left ">Email</div>
+            <div class="col-sm-7 field-right">{{ investor.email | default:'-' }}</div>
+          </div>
+
+    </div>
+</div>
+
+
+<div class="ibox float-e-margins">
+    <div class="ibox-title">
+      <h5>Bank Information</h5>
+      <div class="ibox-tools">
+        <a class="collapse-link">
+          <i class="fa fa-chevron-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="ibox-content">
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left ">Bank Account Name</div>
+            <div class="col-sm-7 field-right">{{ investor.bank_acc_name | default:'-' }}</div>
+          </div>
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left ">Bank Name</div>
+            <div class="col-sm-7 field-right">{{ investor.bank_name | default:'-' }}</div>
+          </div>
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left ">Bank Branch</div>
+            <div class="col-sm-7 field-right">{{ investor.bank_branch | default:'-' }}</div>
+          </div>
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left ">Bank Account No.</div>
+            <div class="col-sm-7 field-right">{{ investor.bank_acc_no | default:'-' }}</div>
+          </div>
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left ">Tax ID No.</div>
+            <div class="col-sm-7 field-right">{{ investor.tax_id_no | default:'-' }}</div>
+          </div>
+
+    </div>
+</div>
+
+
+<div class="ibox float-e-margins">
+    <div class="ibox-title">
+      <h5>Recruiter</h5>
+      <div class="ibox-tools">
+        <a class="collapse-link">
+          <i class="fa fa-chevron-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="ibox-content">
+
+          <div class="row row-preview">
+            <div class="col-sm-5 field-left ">Financial Consultant</div>
+            <div class="col-sm-7 field-right">{{ investor.financial_consultant }}</div>
+          </div>
+
+    </div>
+</div>
+
+  <div class="field-stamp">
+    <a class="btn btn-md btn-primary" href="{% url 'transactions:deposit_list' %}" role="button">Back</a>
+  </div>
+
+  <br><br>
+
+{% endblock content %}

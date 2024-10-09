@@ -1,0 +1,23 @@
+{% extends "investors/base_deposit.html" %}
+{% load i18n %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+{% block breadcrumb_title %}{% trans "Make Deposit" %}{% endblock breadcrumb_title %}
+
+{% block breadcrumb_items %}
+  {{ block.super }}
+	<li>
+    <a href="{% url 'transactions:deposit_list' %}">{% trans "Deposits" %}</a>
+  </li>
+  <li class="active">
+    <strong>{% trans "Make Deposit" %}</strong>
+  </li>
+{% endblock %}
+
+{% block content %}
+  <form class="form-horizontal" action="." method="post" id="form-deposit-create">
+    {% crispy form %}
+  </form>
+
+{% endblock content %}

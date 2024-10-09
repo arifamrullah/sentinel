@@ -1,0 +1,33 @@
+{% extends "avatar/base.html" %}
+{% load i18n avatar_tags %}
+
+{% block content %}
+
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>{% trans "Change your avatar" %}</h5>
+        </div>
+        <div class="ibox-content">
+
+            <p>{% trans "Your current avatar: " %}</p>
+            {% avatar user %}
+
+            {% if not avatars %}
+                <p>{% trans "You haven't uploaded an avatar yet. Please upload one now." %}</p>
+            {% endif %}
+
+            <div style="margin-top:50px;">
+            <form enctype="multipart/form-data" method="POST" action="{% url 'avatar_add' %}">
+                {{ upload_avatar_form.as_p }}
+                <p>
+                    {% csrf_token %}<br>
+
+                    <input type="submit" class="btn btn-primary" value="{% trans "Upload Image" %}" />
+                </p>
+            </form>
+            </div>
+
+        </div>
+    </div>
+
+{% endblock %}
